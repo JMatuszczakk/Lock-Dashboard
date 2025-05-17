@@ -1,0 +1,15 @@
+# Example configuration for Screen Lock Button Card
+
+type: 'custom:screen-lock-button-card'
+code: '1234'  # Your desired PIN code (default: 1234)
+button_text: 'Lock Screen'  # Optional custom button text
+
+# Example placement in a dashboard
+# Add this to your Lovelace dashboard configuration
+
+# views:
+#  - title: Home
+#    cards:
+#      - type: 'custom:screen-lock-button-card'
+#        code: '9876'
+#        button_text: 'Lock Dashboard'

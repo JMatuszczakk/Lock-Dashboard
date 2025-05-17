@@ -1,0 +1,7 @@
+{
+  "name": "Screen Lock Button Card",
+  "content_in_root": true,
+  "filename": "Dash-lock.js",
+  "render_readme": true,
+  "homeassistant": "0.118.0"
+}
