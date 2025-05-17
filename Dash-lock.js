@@ -263,5 +263,5 @@ window.customCards = window.customCards || [];
 window.customCards.push({
     type: "screen-lock-button-card",
     name: "Screen Lock Button Card",
-    description: "A button that locks the screen with a blackout and unlock code. Uses context7 for context management."
+    description: "A button that locks the screen with a blackout and unlock code."
 });

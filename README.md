@@ -31,9 +31,21 @@ resources:
 1. Add this repository to HACS as a custom repository
    - Go to HACS in your Home Assistant instance
    - Click on the three dots in the top right corner and select "Custom repositories"
-   - Add the URL of this repository and select "Lovelace" as the category
-2. Install the card through HACS
-3. Add the card to your resources
+   - Add the URL of this repository (`https://github.com/JMatuszczakk/Lock-Dashboard`) and select "Lovelace" as the category
+2. Install the "Screen Lock Button Card" through HACS
+   - Find the card in the Frontend section of HACS
+   - Click Install
+   - Wait for installation to complete
+3. Add the card to your resources in your Lovelace configuration:
+
+```yaml
+resources:
+  - url: /hacsfiles/screen-lock-button-card/Dash-lock.js
+    type: module
+```
+
+4. Restart Home Assistant
+5. Refresh your browser cache
 
 ## Usage
 
